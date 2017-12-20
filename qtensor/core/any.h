@@ -13,7 +13,8 @@ class Any {
   }
   template<typename T>
   T* Get() const {
-    AnyPointerTyped<T>* raw_internal_ = dynamic_cast<AnyPointerTyped<T>*>(internal_.get());
+    AnyPointerTyped<T>* raw_internal_ =
+      dynamic_cast<AnyPointerTyped<T>*>(internal_.get());
     if (raw_internal_) {
       return &(raw_internal_->internal);
     } else {
