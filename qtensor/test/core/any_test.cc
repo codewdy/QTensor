@@ -15,8 +15,7 @@ class MockData {
 
 }
 
-TEST(Any, Any)
-{
+TEST(Any, Any) {
   Any x, y;
   MockData d;
   x.Set<MockData>(d);
