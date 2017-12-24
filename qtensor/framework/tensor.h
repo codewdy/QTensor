@@ -1,9 +1,11 @@
 #ifndef QTENSOR_FRAMEWORK_TENSOR_H_
 #define QTENSOR_FRAMEWORK_TENSOR_H_
 
-#include "qtensor/core/core.h"
 #include "qtensor/framework/tensor_shape.h"
 #include "qtensor/framework/types.h"
+
+#include <memory>
+#include <atomic>
 
 namespace qtensor {
 

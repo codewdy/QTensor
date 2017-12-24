@@ -1,7 +1,9 @@
 #ifndef QTENSOR_FRAMEWORK_TENSOR_SHAPE_H_
 #define QTENSOR_FRAMEWORK_TENSOR_SHAPE_H_
 
-#include "qtensor/core/core.h"
+#include "qtensor/core/int.h"
+#include "qtensor/core/status.h"
+
 #include <vector>
 #include <memory>
 #include <cstring>

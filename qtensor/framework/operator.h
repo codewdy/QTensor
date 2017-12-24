@@ -1,10 +1,12 @@
 #ifndef QTENSOR_FRAMEWORK_OPERATOR_H_
 #define QTENSOR_FRAMEWORK_OPERATOR_H_
 
-#include <unordered_map>
-
-#include "qtensor/core/core.h"
+#include "qtensor/core/any.h"
+#include "qtensor/core/int.h"
+#include "qtensor/core/status.h"
 #include "qtensor/framework/tensor.h"
+
+#include <unordered_map>
 
 namespace qtensor {
 

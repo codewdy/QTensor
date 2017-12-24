@@ -1,7 +1,7 @@
 #ifndef QTENSOR_FRAMEWORK_TYPES_H_
 #define QTENSOR_FRAMEWORK_TYPES_H_
 
-#include "qtensor/core/core.h"
+#include "qtensor/core/int.h"
 
 namespace qtensor {
 
