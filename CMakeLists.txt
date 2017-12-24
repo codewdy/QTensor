@@ -22,4 +22,4 @@ new_library(core qtensor/core)
 
 # TESTS
 enable_testing()
-new_test(test_core qtensor/test/core)
+new_test(test_core test/core)
