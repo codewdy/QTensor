@@ -17,9 +17,11 @@ endif()
 
 # LIBRARY
 new_library(core qtensor/core)
+new_library(framework qtensor/framework)
 
 # EXECUTABLE
 
 # TESTS
 enable_testing()
 new_test(test_core test/core)
+new_test(test_framework test/framework)
