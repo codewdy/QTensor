@@ -3,6 +3,7 @@
 
 #include "qtensor/core/any.h"
 #include "qtensor/core/int.h"
+#include "qtensor/core/status.h"
 
 #endif
 
